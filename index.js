@@ -10,6 +10,12 @@ const questions = [
         message: "What is the name of your application?"
     },
     {
+        type: "list",
+        name: "license",
+        message: "What license are you using for the application?",
+        choices: ['MIT', 'Apache', 'GPL', 'Unlicense']
+    },
+    {
         type: "input",
         name: "description",
         message: "Please write a description of the application."

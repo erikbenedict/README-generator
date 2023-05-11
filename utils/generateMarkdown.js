@@ -14,6 +14,8 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ![License](https://img.shields.io/static/v1?label=LICENSE&message=${data.license}&color=<brightgreen>)
+
   <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -22,6 +24,7 @@ function generateMarkdown(data) {
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#tests">Tests</a></li>
     <li><a href="#questions">Questions</a></li>
   </ol>
 </details>
@@ -29,6 +32,24 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.description}
+
+## Installation
+${data.installation}
+
+## Usage
+${data.usage}
+
+## License
+Distributed under the ${data.license} License
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions
+${data.questions}
 `;
 }
 
