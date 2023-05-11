@@ -1,6 +1,6 @@
-# Test
+# TEST
 
-![License](https://img.shields.io/static/v1?label=LICENSE&message=Apache&color=<brightgreen>)
+![License](https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=<brightgreen>)
 
   <details>
   <summary>Table of Contents</summary>
@@ -17,28 +17,31 @@
 
 ## Description
 
-Testing to see if the license badge is correct
+Just a simple test running the application
 
 ## Installation
 
-undefined
+run `npm i` in the terminal
 
 ## Usage
 
-undefined
+Practice DRY principles to quickly create a professional README for a new project
 
 ## License
 
-Distributed under the Apache License
+Distributed under the MIT License
 
 ## Contributing
 
-undefined
+Fork it and pull it!
 
 ## Tests
 
-undefined
+run the app and see your input in a newly generated README
 
 ## Questions
 
-undefined
+- [My GitHub Profile](https://github.com/erikbenedict)
+- Email: erik.r.benedict@gmail.com
+
+Please reach out via email with any additional questions you might have!

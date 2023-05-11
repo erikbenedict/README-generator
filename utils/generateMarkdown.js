@@ -49,7 +49,11 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-${data.questions}
+- [My GitHub Profile](https://github.com/${data.github})
+- Email: ${data.email}
+
+Please reach out via email with any additional questions you might have!
+
 `;
 }
 

@@ -12,14 +12,44 @@ const questions = [
     {
         type: "list",
         name: "license",
-        message: "What license are you using for the application?",
+        message: "What license are you using for the repository?",
         choices: ['MIT', 'Apache', 'GPL', 'Unlicense']
     },
     {
         type: "input",
         name: "description",
         message: "Please write a description of the application."
-    }
+    },
+    {
+        type: "input",
+        name: "installation",
+        message: "What are the instructions on installing and setting up your app?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "What are examples of how this app can be used??"
+    },
+    {
+        type: "input",
+        name: "contributing",
+        message: "What are the contribution guidelines for your repository?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "What are the test instructions for your app?"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "What is your GitHub username?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is the email address that you would like to be contacted at for additional questions from your audience?"
+    },
 ];
 
 // TODO: Create a function to write README file
