@@ -1,6 +1,6 @@
 # Hello World
 
-  ![License](https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=brightgreen)
+  ![License](https://img.shields.io/static/v1?label=LICENSE&message=Apache-2-0&color=brightgreen)
 
   <details>
   <summary>Table of Contents</summary>
@@ -17,19 +17,19 @@
 
 
 ## Description
-This is a brand new application that you will love!
+This is a brand new application that you will love!!
 
 ## Installation
-run ``` npm i ``` in the terminal
+Clone the repo, then run ``` npm i ``` in the terminal
 
 ## Usage
 Use to generate a professional README
 
 ## License
-Distributed under the MIT License. See [License Page](https://opensource.org/license/mit) for more information.
+Distributed under the Apache-2-0 License. See [License Page](https://opensource.org/license/apache-2-0) for more information.
 
 ## Contributing
-Fork the repo, then create a pull request
+Fork the repo, create a Feature Branch, commit your changes, push to the branch, then open a Pull Request
 
 ## Tests
 Run the application and check for errors
