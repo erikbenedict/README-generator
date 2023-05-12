@@ -29,6 +29,8 @@ To get a local copy up and running follow these simple example steps.
 
 Below is a demo of how this README generator works. It's a simple process that will streamline your work flow!
 
+https://github.com/erikbenedict/README-generator/assets/89614823/76c80a3c-5a2d-4223-aa71-00a488232ae9
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -47,5 +49,5 @@ Distributed under the MIT License. See [MIT](https://choosealicense.com/licenses
 
 ## Contact
 
-Erik Benedict - [@\_Erik_Benedict](https://twitter.com/_Erik_Benedict) - erik.r.benedict@gmail.com
+Erik Benedict - [@\_Erik_Benedict](https://twitter.com/_Erik_Benedict) - erik.r.benedict@gmail.com </br>
 Project Link: [https://github.com/erikbenedict/README-generator](https://github.com/erikbenedict/README-generator)
