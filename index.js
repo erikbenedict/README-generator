@@ -13,7 +13,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "What license are you using for the repository?",
-        choices: ['MIT', 'Apache', 'GPL', 'Unlicense']
+        choices: ['MIT', 'Apache-2-0', 'GPL-2-0', 'Unlicensed']
     },
     {
         type: "input",
