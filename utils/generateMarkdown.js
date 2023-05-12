@@ -1,5 +1,5 @@
 // * function that returns a license badge based on which license is passed in
-function renderLicenseBadge(license) {
+const renderLicenseBadge = (license) => {
   if (license !== 'Unlicensed') {
     return `![License](https://img.shields.io/static/v1?label=LICENSE&message=${license}&color=brightgreen)`
   } else {
@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
 }
 
 // * function that returns the license link
-function renderLicenseLink(license) {
+const renderLicenseLink = (license) => {
   if (license !== 'Unlicensed') {
     return `[License Page](https://opensource.org/license/${license.toLowerCase()})`
   } else {
@@ -17,7 +17,7 @@ function renderLicenseLink(license) {
 }
 
 // * function that returns the license section of README
-function renderLicenseSection(license) {
+const renderLicenseSection = (license) => {
   if (license !== 'Unlicensed') {
     return `## License
 Distributed under the ${license} License. See ${renderLicenseLink(license)} for more information.`
@@ -27,7 +27,7 @@ Distributed under the ${license} License. See ${renderLicenseLink(license)} for 
 }
 
 // * function to generate markdown for README
-function generateMarkdown({title, license, description, installation, usage, contributing, tests, github, email}) {
+const generateMarkdown = ({title, license, description, installation, usage, contributing, tests, github, email}) => {
   return `# ${title}
 
   ${renderLicenseBadge(license)}
