@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'Unlicensed') {
-    return `[License Link](https://opensource.org/license/${license.toLowerCase()})`
+    return `[License Page](https://opensource.org/license/${license.toLowerCase()})`
   } else {
     return "";
   }
