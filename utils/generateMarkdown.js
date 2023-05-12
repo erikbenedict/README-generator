@@ -4,18 +4,30 @@ function renderLicenseBadge(license) {
   if (license !== 'Unlicensed') {
     return `![License](https://img.shields.io/static/v1?label=LICENSE&message=${license}&color=brightgreen)`
   } else {
-    
     return "";
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license !== 'Unlicensed') {
+    return `[License Link](https://opensource.org/license/${license.toLowerCase()})`
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== 'Unlicensed') {
+    return `## License
+Distributed under the ${license} License. See ${renderLicenseLink(license)} for more information.`
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -46,8 +58,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## License
-Distributed under the ${data.license} License
+${renderLicenseSection(data.license)}
 
 ## Contributing
 ${data.contributing}
