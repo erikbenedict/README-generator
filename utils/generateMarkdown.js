@@ -28,9 +28,9 @@ Distributed under the ${license} License. See ${renderLicenseLink(license)} for 
 
 // * function to generate markdown for README
 function generateMarkdown({title, license, description, installation, usage, contributing, tests, github, email}) {
-  return `# ${data.title}
+  return `# ${title}
 
-  ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(license)}
 
   <details>
   <summary>Table of Contents</summary>
@@ -47,25 +47,25 @@ function generateMarkdown({title, license, description, installation, usage, con
 
 
 ## Description
-${data.description}
+${description}
 
 ## Installation
-${data.installation}
+${installation}
 
 ## Usage
-${data.usage}
+${usage}
 
-${renderLicenseSection(data.license)}
+${renderLicenseSection(license)}
 
 ## Contributing
-${data.contributing}
+${contributing}
 
 ## Tests
-${data.tests}
+${tests}
 
 ## Questions
-- [My GitHub Profile](https://github.com/${data.github})
-- Email: ${data.email}
+- [My GitHub Profile](https://github.com/${github})
+- Email: ${email}
 
 Please reach out via email with any additional questions you might have!
 `;
