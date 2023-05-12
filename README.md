@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 Below is a demo of how this README generator works. It's a simple process that will streamline your work flow!
 
-https://github.com/erikbenedict/README-generator/assets/89614823/76c80a3c-5a2d-4223-aa71-00a488232ae9
+https://github.com/erikbenedict/README-generator/assets/89614823/e6c15769-6b7f-4f06-9292-e672aa365388
 
 ## Contributing
 
